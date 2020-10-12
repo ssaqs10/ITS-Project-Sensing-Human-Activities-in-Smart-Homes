@@ -58,9 +58,9 @@ L2_LOSS = 0.0015
 LEARNING_RATE = 0.0025
 
 # Hyperparameters optimized
-SEGMENT_TIME_SIZE = 180
+SEGMENT_TIME_SIZE = 173
 N_HIDDEN_NEURONS = 30
-BATCH_SIZE = 32
+BATCH_SIZE = 10
 
 ##################################################
 #%%# FUNCTIONS
@@ -101,7 +101,7 @@ data['z-axis'].replace({';': ''}, regex=True, inplace=True)
 data = data.dropna()
 
 #%% SHOW GRAPH FOR JOGGING
-data[data['activity'] == 'Jogging'][['x-axis']][:50].plot(subplots=True, figsize=(16, 12), title='Jogging')   ### unfortunately doesnt show graph
+data[data['activity'] == 'Jogging'][['x-axis']][:50].plot(subplots=True, figsize=(16, 12), title='Jogging')
 plt.xlabel('Timestep')
 plt.ylabel('X acceleration (dg)')
 #%% SHOW ACTIVITY GRAPH
