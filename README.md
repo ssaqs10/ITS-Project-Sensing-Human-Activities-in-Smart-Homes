@@ -6,7 +6,6 @@ hyperparametersOptimized.npy - The parameter optimized file
 visualization.py             - This is the visualization file
 ANN.py                       - This is the artificial neural network file
 
-
 REFERNCE
 https://www.kaggle.com/adamlouly/exploratory-data-analysis-on-wisdm
 https://github.com/bartkowiaktomasz/har-wisdm-lstm-rnns
