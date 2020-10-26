@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Sep  6 21:56:23 2020
-
+# REFERENCE: https://www.kaggle.com/adamlouly/exploratory-data-analysis-on-wisdm
 @author: mrjok
 """
 import numpy as np # linear algebra
