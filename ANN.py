@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Oct  9 15:54:42 2020
+# REFERENCE: https://www.kaggle.com/adamlouly/exploratory-data-analysis-on-wisdm
 
 @author: mrjok
 """
